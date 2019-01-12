@@ -8,7 +8,7 @@ class Main: Thread() {
 
         @JvmStatic
         fun main(args: Array<String>) {
-            LockTests().writeThenReadTest(10)
+            RunLockTests().run()
         }
     }
 }
