@@ -12,5 +12,8 @@ class RunLockTests {
 
         val WAR = WriteAndReadTest()
         WAR.writeAndReadTest(10)
+
+        val CT = CoroutineTest()
+        CT.run()
     }
 }
